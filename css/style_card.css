@@ -1,0 +1,14 @@
+.wechat{
+    /* float: right; */
+    width: 130px;
+    height: 130px;
+    background-image: url(wechat.jpg);
+    background-size:contain;
+}
+
+.tel,
+.email{
+color:aqua;
+font-size: 15px;
+font-weight: 800;
+}

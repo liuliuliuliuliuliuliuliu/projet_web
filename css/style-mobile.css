@@ -1,0 +1,105 @@
+.header{
+   padding-top: 8spx;
+   padding-right: 8px;
+}
+
+.header .logo{
+    float: none;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.car a{
+    float: right;
+
+}
+.car{
+    width: 25%;
+}
+.search{
+    width: 60%;
+}
+.header .search{
+    margin-top: 8px;
+    margin-left: 15%;
+    border: 1px solid red;
+}
+
+.header .search input,
+.header .search button{
+    padding: 6px;
+}
+#check{
+    position: absolute;
+    /* margin-top: 16px;
+    margin-left: 35px; */
+}
+.main-promote{
+    background-color: #f9f9f9;
+}
+#caidan{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 5px;
+    display: block;
+}
+#caidan2{
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: -30px; 
+    display: block;
+}
+#check2:checked ~ .model{
+    display: none;
+}
+.main-promote .model{
+    /* margin-top: 10px; */
+    float: none;
+    /* display: block; */
+    width: 100%;
+    
+}
+.main-promote .model .item{
+    width: 50%;
+    float: left;
+    background-color: #6e6568;
+}
+
+
+.header .search input:before{
+    content: "";
+
+}
+
+.container {
+    margin: 0;
+    display: block;
+}
+
+.img{
+    
+    display: inline-block;
+}
+
+/* .ad-slider{
+    float: none;
+    display: block;
+} */
+
+.img2{
+    max-width: 167%;
+}
+.information{
+    /* float: none; */
+    width: 100%;
+    display: block;
+}
+
+.cat-promote .card1,
+.cat-promote .card2,
+.cat-promote .card3,
+.cat-promote .card4{
+    height: 100px;
+}

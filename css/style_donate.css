@@ -1,0 +1,19 @@
+.alipay{
+  
+     /*    float: right; */
+        width: 180px;
+        height: 250px;
+        background-image: url(alipay.jpeg);
+        background-size:contain;
+        background-size:100% 100%;
+}
+.wechatpay{
+  
+       /*  float: right; */
+        width: 180px;
+        height: 250px;
+        background-image: url(wechatpay.jpeg);
+        background-size:contain;
+        background-size:100% 100%;
+    
+}

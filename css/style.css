@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+   transition: background 0.6s;
+}
+body{
+    font-size: 14px;/*极大不方便！！！！*/
+    color: #444;
+    background-color: #f9f9f9;
+    line-height: 1.7;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.container {
+    /* margin: 0 15%; */
+    display: block;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clear-float:after,
+.clear-float:before{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* .logo{
+    
+} */
+.logo,
+.search,
+.slider,
+.model,
+.slider,
+.ad-static1,
+.ad-static2,
+.information
+
+{
+    float: left;
+    display: block;
+    position: relative;
+    min-height: 1px;
+}
+
+.model1 {
+    width: 10%;
+    display: block;
+    /* float: none; */
+}
+.car{
+    float: right;
+    display: block;
+    position: relative;
+    min-height: 1px;
+}
+.logo,
+.car,
+.model,
+.information,
+.item1,
+.item3 {
+    width: 20%;
+}
+.logo {
+    margin-right: 10%;
+}
+.item2,
+.item4 {
+    width: 30%;
+}
+/* .item2,
+.item3{
+    padding-right: 2px;
+} */
+.search {
+    width: 40%;
+}
+.ad-static1,
+.ad-static2 {
+    width: 50%;
+}
+.slider {
+    width: 60%;
+}
+
+.information .title{
+    text-align: center;
+}
+/* .huanying{
+    margin-top: 2px;
+} */
+.top-nav{
+
+    background-color: #eee;
+}
+
+.top-nav .item{
+    display: inline-block;
+    padding: 6px 10px;
+    color: #666;
+}
+
+.top-nav .item:hover{
+    color: #333;
+}
+a {
+
+    text-decoration: none;
+}
+
+.header{
+    padding: 20px 20px;
+}
+.header .logo{
+    font-size: 30px;
+}
+
+.header .search{
+    border: 2px solid red;
+}
+
+.header .search input,
+.header .search button{
+    display: block;
+    float: left;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+}
+
+.header .search input{
+    width: 80%;
+}
+.header .search input:focus{
+    -webkit-box-shadow:inset 0 0 2px 2px rgba(0,0,0,0.3);
+    box-shadow:inset 0 0 2px 2px rgba(0,0,0,0.3);
+}
+.header .search button{
+    width: 20%;
+    background-color: rgb(209, 7, 7);
+    color: #fff;
+}
+.header .search button:hover{
+    background-color: rgba(248, 4, 4);
+}
+
+.header .car a{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    float: right;
+    width: 80%;
+    color: red;
+}
+
+.header .car{
+    text-align: center;
+}
+.car a:hover{
+    background-color: rgba(248, 4, 4);
+    color: #fff;
+
+}
+.main-promote{
+    background-color: #dedede;
+}
+.main-promote .model{
+    background-color: #6e6568;
+    color: #fff;
+
+}
+
+.main-promote .model .item{
+    padding: 15px 20px;
+}
+
+.main-promote .model .item:hover{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.main-promote .information{
+    padding: 10px;
+    /*line-height: 50px;*/
+    background-color: white;
+    color: #888;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+
+
+}
+
+.main-promote .information>*{
+    margin-bottom: 10px;
+}
+.main-promote .information .avatar{
+    width: 50px;
+    height: 50px;
+    background-color: #aaa;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.cat-promote .title:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;/*????????*/
+    width: 5px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: #dd182b;
+}
+.cat-promote .title{
+    /* padding-right: 0; */
+    /*padding: 10px;*/
+    font-size: 22px;
+    /*position: relative;*/
+}
+
+.cat-promote .item1,
+.cat-promote .item2,
+.cat-promote .item3,
+.cat-promote .item4{
+    float: left;/*浮动＋相对定位就可以一行无缝！！！！*/
+    position: relative;
+    padding: 5px;
+    /* background-color: red; */
+}
+
+.cat-promote .card1,
+.cat-promote .card2,
+.cat-promote .card3,
+.cat-promote .card4{
+    /* float: left; */
+    height: 300px;
+    border-radius: 7%;
+    transition: all 0.5s;
+    position: relative;
+}
+.card1{
+    background-color: #ccc;
+}
+.card2{
+    background-color: greenyellow;
+}
+.card3{
+    background-color: yellow;
+}
+.card4{
+    background-color: red;
+}
+.cat-promote .card1:hover,
+.cat-promote .card2:hover,
+.cat-promote .card3:hover,
+.cat-promote .card4:hover{
+    margin-top: -5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    text-align: center;
+    color: #999;
+    background-color: #eee;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+
+#check,
+#caidan,
+#check2,
+#caidan2{
+    display: none;
+}

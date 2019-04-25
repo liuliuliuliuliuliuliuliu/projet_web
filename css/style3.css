@@ -1,0 +1,260 @@
+.loading{width: 100%;height: 100%;position: fixed;top:0;left: 0;z-index: 100;background-color: #fff;}
+.loading .pic{width: 50px;height: 50px;position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: auto;}
+.loading .pic i{display: block;float: left;width: 6px;height: 50px;background-color: #399;margin: 0 2px;transform: scaleY(.4);animation: load 1.2s infinite;
+}
+/* .loading .pic i:nth-child(1){} */
+.loading .pic i:nth-child(2){animation-delay: .1s; }
+.loading .pic i:nth-child(3){animation-delay: .2s;}
+.loading .pic i:nth-child(4){animation-delay: .3s;}
+.loading .pic i:nth-child(5){animation-delay: .4s;}
+@keyframes load{
+    0%,40%,100%{transform: scaleY(.4);}
+    20%{transform: scaleY(1);}
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(header.jpg);
+    /*background-position: center center;*/
+    background-size: 100% 100%;
+}
+.header_top .logo,
+.header_top .connecter,
+.header_top .contact,
+.header_top .plz_donate
+{
+display: inline-block;
+padding: 15px;
+}
+.plz_donate{
+    margin-left: 70%;
+}
+.header_top{
+    border: 1px solid gray;
+}
+/*.body_1_content{
+    background-color: blue;
+    position: relative;
+
+}*/
+/*.header_mid{
+    position: relative;
+}*/
+.header_mid{
+   /* display: inline-block;*/
+    width: 100%;
+    margin-top: 5%;
+    /*margin: 0 auto;*/
+    padding-top: 0;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;   
+    transition: color 1s;
+}
+hr{
+    display: block;
+    margin-top: 30px;
+    width: 5%;
+    border-color: #F05F40;
+}
+a:hover{
+    color: #F05F40;
+}
+
+.header_mid .commencer:hover
+{
+    background-color: white;
+    color: #F05F40;
+}
+
+/*.footer{
+    position: relative;
+    height: 300px;
+    background-color: aliceblue;
+}*/
+.bienvenu{
+    font-size: 50px;
+    color: aqua;
+}
+.introduction{
+    margin-top: 3%;
+    font-size: 30px;
+    color: bisque;
+}
+
+.header_mid .a{
+    display: block;
+    position: absolute;
+    top: 50px;
+    background-color: #F05F40;
+}
+
+.commencer{
+    margin-top: 50px;
+    /*border: 1px solid #F05F40;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #F05F40;
+    border-radius: 300px;
+    border-radius: 300px;
+    transition: background-color 1000ms;
+
+}
+.header_mid .dejauncompte a{
+    background: #df5799;
+    color: #fff;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 13px 38px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.dejauncompte a:hover{
+    background: #ffffff;
+	color:#df5799;
+	transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+.sub-agileits-w3layouts{
+	color: #ffffff;
+}
+#skip{
+	text-align: right;
+	color: #ffffff;
+}
+/*限制边框大小*/
+.main-agileits {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-w3-agile {/*边框*/
+    background: rgba(41, 39, 39, 0.46);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 60px 40px;
+}
+
+.form-w3-agile_1 {/*边框*/
+    background: rgba(41, 39, 39, 0.46);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 60px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 10px 0 35px 0;
+    color: #ffffff;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+/*表单格式*/
+ .form-w3-agile input[type="text"], .form-w3-agile input[type="password"], .form-w3-agile input[type="email"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 14px;
+    width: 95.5%;
+    border: none;
+    border-bottom: 1px solid #889ba0;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+/*提交按钮格式*/
+
+.submit-w3l input[type="submit"] {
+    background: #fff;
+    color: #000;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 13px 38px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+/*提交悬停效果*/
+.submit-w3l input[type="submit"]:hover{
+    background: #df5799;
+	color:#ffffff;
+	transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+
+.copyright p {
+    margin: 0 auto;
+    text-align: center;
+    margin: 30px 0px 0;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    text-transform: none;
+}
+td,
+th{
+    text-align: left;
+    color:#F05F40;
+    font-size: 17px;
+}
+.information_personnel{
+    font-size: 20px;
+    color: aqua;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+table{
+    margin-left: 8%;
+}
+.card,
+.donate
+{
+    float: right;
+}
+.donate{
+    position: absolute;
+    right: 20%;
+} 
